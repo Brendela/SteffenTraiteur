@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		<record id="view_delivery_order_tree" model="ir.ui.view">
+            <field name="name">sale.delivery.order.tree</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_tree"/>
+            <field name="arch" type="xml">
+            	<field name="user_id" position="after">
+            		<field name="customer_order_delivery_date" groups="base.group_portal"/>
+            	</field>
+            </field>
+        </record>
+        
+       <record id="view_delivery_order_calendar" model="ir.ui.view">
+            <field name="name">sale.delivery.order.calendar</field>
+            <field name="model">sale.order</field>
+            <field name="priority">20</field>
+            <field name="arch" type="xml">
+                <!-- display="[slot_name]" -->
+                <calendar string="Delivery Orders" color="user_id" date_start="customer_order_delivery_date" >
+                    <field name="name"/>
+                    <field name="slot_name"/>
+                    <field name="user_id"/>
+                </calendar>
+            </field>
+        </record>
+
+       <record id="action_delivery_orders" model="ir.actions.act_window">
+            <field name="name">My Delivery Dates</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sale.order</field>
+            <!-- <field name="view_type">form</field> -->
+            <field name="view_mode">calendar</field>
+            <field name='view_id' ref='view_delivery_order_calendar'/>
+			<field name="domain">[('state', 'in', ('draft','sent', 'cancel')), ('customer_order_delivery_date', '!=', False)]</field>            
+        </record>
+        
+            <!-- parent="base.menu_sales"  -->
+        <menuitem action="action_delivery_orders" 
+            id="menu_delivery_order" 
+            parent="sale.sale_order_menu" 
+            sequence="20" 
+            groups="sales_team.group_sale_manager,base.group_no_one"/>
+</odoo>

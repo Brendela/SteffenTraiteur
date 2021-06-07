@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_frontend" inherit_id="website.assets_frontend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/delivery_date_scheduler/static/src/css/bootstrap-datetimepicker.css"/>        
+            <link rel="stylesheet" href="/delivery_date_scheduler/static/src/css/bootstrap-datetimepicker.min.css"/>
+            <link rel="stylesheet" href="/delivery_date_scheduler/static/src/css/datepicker.css"/>
+            <link rel="stylesheet" href="/delivery_date_scheduler/static/src/css/time_slot.css"/>
+            
+            <script type="text/javascript" src="/delivery_date_scheduler/static/src/js/moment.min.js"></script>
+            <script type="text/javascript" src="/delivery_date_scheduler/static/src/js/bootstrap-datetimepicker.js"></script>
+            <script type="text/javascript" src="/delivery_date_scheduler/static/src/js/bootstrap-datetimepicker.min.js"></script>
+            <script type="text/javascript" src="/delivery_date_scheduler/static/src/js/delivery_date.js"></script>
+            
+            <script type="text/javascript" src="/delivery_date_scheduler/static/src/js/order_delivery_validation.js"></script>
+            <script type="text/javascript" src="/delivery_date_scheduler/static/src/js/mapped_values.js"></script>
+        </xpath>
+    </template>
+    
+    <template id="website_sale_customer_order_delivery_dates" inherit_id="payment.payment_tokens_list">
+        <xpath expr="//form" position="inside">
+
+            <input type="hidden" name="payment_delivery_date" value=""/>
+            <input type="hidden" name="payment_delivery_cmt" value=""/>
+            <input type="hidden" name="payment_delivery_slot_id" value=""/>
+            <input type="hidden" name="payment_delivery_slot_value" value=""/>
+            
+        </xpath>
+    </template>
+
+    <template id="website_sale_customer_order_delivery_date" inherit_id="website_sale.payment">
+
+        <xpath expr="//div[@id='payment_method']" position="before">
+            <t t-if="website and website.is_customer_order_delivery_date_feature==False">                                                                                                                   
+                <div class="row">
+                    <div class="form-group col-lg-12">
+                        <div class="container" t-if="website.show_delivery_schedule=='calendarview'">
+                        <div class="pro-exten">
+                            <div class='form-inline' t-if="website.enable_time_calendar">
+                                <div class="form-group">
+                                    <div class="container" t-if="website.label_date">
+                                        <div t-attf-class="form-group">
+                                            <label class="control-label"><t t-esc="website.label_date"/></label>
+                                            <div class='input-group date biz-date-picker' id='datetimepicker1'>
+                                                <input type='text' name="delivery_date" class="form-control form_datetime" id='delivery_date'  value="" readonly="readonly"/>                                               
+                                                <span class="input-group-addon" id="delivery_date_button" >
+                                                    <span class="fa fa-calendar" data-date-icon="icon-calendar"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container" t-if="website.label_date==False">
+                                        <div t-attf-class="form-group">
+                                            <label class="control-label">Delivery Date Time</label>
+                                            <div class='input-group date biz-date-picker' id='datetimepicker1' >
+                                                <input type='text' name="delivery_date" class="form-control form_datetime" id='delivery_date'  value="" readonly="readonly"/>                                               
+                                                <span class="input-group-addon" id="delivery_date_button" >
+                                                    <span class="fa fa-calendar" data-date-icon="icon-calendar"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='form-inline' t-if="website.enable_time_calendar==False">
+                                <div class="form-group" t-if="website.label_date">
+                                    <label class="control-label"><t t-esc="website.label_date"/></label>
+                                    <div class='input-group date biz-date-picker' id='datetimepicker2'>
+                                        <input type='text' class="form-control form_datetime" id='delivery_date'  value="" readonly="readonly"/>
+                                        <span class="input-group-addon" id="delivery_date_button1" >
+                                            <span class="fa fa-calendar" data-date-icon="icon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group" t-if="website.label_date==False">
+                                    <label class="control-label">Delivery Date Time</label>
+                                    <div class='input-group date biz-date-picker' id='datetimepicker2'>
+                                        <input type='text' class="form-control form_datetime" id='delivery_date'  value="" readonly="readonly"/>
+                                        <span class="input-group-addon" id="delivery_date_button1" >
+                                            <span class="fa fa-calendar" data-date-icon="icon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <br/><t t-if="website and website.is_customer_order_delivery_comment_feature==False">
+                                <div class="row">   
+                                     <div class='col-sm-4 pe-comment'>  
+                                        <div class="form-group" t-if="website.label_comment">                                
+                                              <label class="control-label" for="delivery_comment"><t t-esc="website.label_comment"/></label><br/>
+                                              <textarea  cols="100" class="form-control" id="delivery_comment" placeholder="Write a comment..."></textarea>
+                                        </div>                      
+                                        <div class="form-group" t-if="website.label_comment==False">                                 
+                                              <label class="control-label" for="delivery_comment">Delivery Comment</label><br/>
+                                              <textarea cols="100" class="form-control" id="delivery_comment" placeholder="Write a comment..."></textarea>
+                                        </div>
+                                    </div>
+                                </div> 
+                             </t>
+                         </div>
+                        </div>
+                        <div class="pro-exten" t-if="website.show_delivery_schedule=='timeslotview'">
+                            <div class='form-inline'>
+                                <div class="form-group" t-if="website.label_date">
+                                    <label class="control-label"><t t-esc="website.label_date"/></label>
+                                    <div class='input-group biz-date-picker' id='datetimepicker2'>
+                                        <input type='text' class="form-control" id='delivery_date'  value=""  readonly="readonly"/>
+                                        <span class="input-group-addon" id="delivery_date_button1" >
+                                            <span class="fa fa-calendar" data-date-icon="icon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group" t-if="website.label_date==False">
+                                    <label class="control-label">Delivery Date Time</label>
+                                    <div class='input-group biz-date-picker' id='datetimepicker2'>
+                                        <input type='text' class="form-control form_datetime" id='delivery_date'  value="" readonly="readonly"/>
+                                        <span class="input-group-addon" id="delivery_date_button1" >
+                                            <span class="fa fa-calendar" data-date-icon="icon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div t-if="website.timeformat!='24h' and website.time_slot_ids" style="margin-top:18px" class="pe-date-row" id="time_slot_12">
+                                <ul>
+                                <t t-foreach="website.time_slot_ids" t-as="timeslot">
+                                    <li>
+                                        <label class="radio-inline">
+                                            <t t-set="start" t-value="timeslot.starttime"/>
+                                            <t t-set="end" t-value="timeslot.endtime"/>
+                                            <input type="radio" name="slot" t-att-id="timeslot.id" t-att-value="'%s-%s-%s' %(timeslot.starttime, timeslot.s_time,  timeslot.endtime)">
+                                            <t t-if="len(start.split('.')) &gt; 1 and int(start.split('.')[1]) == 5">
+                                                    <t t-esc="start.split('.')[0]+str(':30')" id="slot_name"/>
+                                            </t>
+                                            <t t-if="len(start.split('.')) &lt; 2">
+                                                <t t-esc="timeslot.starttime" id="slot_name"/>
+                                            </t>
+                                            <t t-if="timeslot.s_time=='0'"> 
+                                                AM -
+                                            </t>
+                                            <t t-if="timeslot.s_time=='1'">                                     
+                                                PM -
+                                            </t>
+                                            <t t-if="len(end.split('.')) &lt; 2">
+                                                    <t t-esc="timeslot.endtime"/>
+                                            </t>
+                                            <t t-if="len(end.split('.')) &gt; 1 and int(end.split('.')[1]) == 5">
+                                                <t t-esc="end.split('.')[0]+str(':30')"/>
+                                            </t>
+                                            <t t-if="timeslot.e_time=='0'">
+                                                AM
+                                            </t>                                            
+                                            <t t-if="timeslot.e_time=='1'">
+                                                PM
+                                            </t>
+                                            </input>
+                                        </label>
+                                    </li>
+                                </t>
+                                </ul>
+                            </div>
+                            <br t-if="website.timeformat=='24h' and not website.time_slot_ids_his or 
+                                website.timeformat!='24h' and not website.time_slot_ids"/>
+
+                            <div t-if="website.timeformat=='24h' and website.time_slot_ids_his" style="margin-top:18px" class="pe-date-row" id="time_slot_24">
+                                <ul>
+                                    <t t-foreach="website.time_slot_ids_his" t-as="timeslot">
+                                        <li>
+                                            <label class="radio-inline">
+                                                <t t-set="start" t-value="timeslot.starttime_his"/>
+                                                <t t-set="end" t-value="timeslot.endtime_his"/>
+                                                <input type="radio" name="slot" t-att-id="timeslot.id" t-att-value="'%s-%s' %(timeslot.starttime_his, timeslot.endtime_his)">
+                                                <t t-if="len(start.split('.')) &gt; 1 and int(start.split('.')[1]) == 5">
+                                                    <t t-esc="start.split('.')[0]+str(':30')" id="slot_name"/>
+                                                </t>
+                                                <t t-if="len(start.split('.')) &lt; 2">
+                                                    <t t-if="timeslot.starttime_his == '24'">
+                                                        <t t-set="sp_24" t-value="0"/>
+                                                        <t t-esc="str(sp_24)+str(':00')" id="slot_name"/>
+                                                    </t>
+                                                    <t t-if="timeslot.starttime_his != '24'">
+                                                        <t t-esc="timeslot.starttime_his+str(':00')" id="slot_name"/>
+                                                    </t>
+                                                </t>
+                                                <t t-if="len(end.split('.')) &lt; 2">
+                                                -
+                                                    <t t-if="timeslot.endtime_his == '24'">
+                                                        <t t-set="sp_24" t-value="0"/>
+                                                        <t t-esc="str(sp_24)+str(':00')" id="slot_name"/>
+                                                    </t>
+                                                    <t t-if="timeslot.endtime_his != '24'">
+                                                        <t t-esc="timeslot.endtime_his+str(':00')"/>
+                                                    </t>
+                                                </t>
+                                                <t t-if="len(end.split('.')) &gt; 1 and int(end.split('.')[1]) == 5">
+                                                -
+                                                    <t t-esc="end.split('.')[0]+str(':30')"/>
+                                                </t>
+                                                </input>
+                                            </label>
+                                        </li>
+                                    </t>
+                                </ul>   
+                            </div>
+                        
+                         <t t-if="website and website.is_customer_order_delivery_comment_feature==False">
+                            <div class="row">   
+                                 <div class='col-sm-4 pe-comment'>  
+                                    <div class="form-group" t-if="website.label_comment">                                
+                                          <label class="control-label" for="delivery_comment"><t t-esc="website.label_comment"/></label><br/>
+                                          <textarea  cols="100" class="form-control" id="delivery_comment" placeholder="Write a comment..."></textarea>
+                                    </div>                      
+                                    <div class="form-group" t-if="website.label_comment==False">                                 
+                                          <label class="control-label" for="delivery_comment">Delivery Comment</label><br/>
+                                          <textarea  cols="100" class="form-control" id="delivery_comment" placeholder="Write a comment..."></textarea>
+                                    </div>
+                                </div>
+                            </div> 
+                         </t>      
+                        </div>  
+                        </div>                                      
+                </div>                
+            </t>                                                          
+        </xpath>                                    
+    </template>
+</odoo>

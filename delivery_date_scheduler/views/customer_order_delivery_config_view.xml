@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_config_settings_customer_delivery_inherit" model="ir.ui.view">
+        <field name="name">res.config.settings.customer.order.delivery.date.inherit</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="website.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <div id="webmaster_settings" position="after">                
+                <h2>Delivery Date Scheduler</h2>
+                <div class="row mt16 o_settings_container">
+                    <div class="col-xs-12 col-md-12 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="is_customer_order_delivery_date_feature"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="is_customer_order_delivery_date_feature"/>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 o_setting_box" attrs="{'invisible': [('is_customer_order_delivery_date_feature', '=' ,True)]}">
+                        <div class="o_setting_left_pane">
+                                <field name="delivery_date_mandatory"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="delivery_date_mandatory"/>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 o_setting_box" attrs="{'invisible': [('is_customer_order_delivery_date_feature','=',True)]}">
+                        <div class="o_setting_right_pane">
+                            <label for="show_delivery_schedule"/>
+                            <div class="text-muted">
+                                <field name="show_delivery_schedule" attrs="{'required':[('is_customer_order_delivery_date_feature','=',False)]}"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 o_setting_box" attrs="{'invisible': [('is_customer_order_delivery_date_feature','=',True)]}">
+                        <div class="o_setting_right_pane">
+                            <label for="label_date"/>
+                            <div class="text-muted">
+                                <field name="label_date"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 o_setting_box" attrs="{'invisible': [('is_customer_order_delivery_date_feature','=',True)]}">
+                        <div class="o_setting_left_pane">
+                                <field name="is_customer_order_delivery_comment_feature"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="is_customer_order_delivery_comment_feature"/>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 o_setting_box" attrs="{'invisible': ['|',('is_customer_order_delivery_date_feature','=',True),(['is_customer_order_delivery_comment_feature','=',True])]}">
+                        <div class="o_setting_right_pane">
+                            <label for="label_comment"/>
+                            <div class="text-muted">
+                                <field name="label_comment"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 o_setting_box" attrs="{'invisible': [('is_customer_order_delivery_date_feature','=',True)]}">
+                        <div class="o_setting_right_pane">
+                            <label for="date_format"/>
+                            <div class="text-muted">
+                                <field name="date_format" attrs="{'required':[('is_customer_order_delivery_date_feature','=',False)]}"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 o_setting_box" attrs="{'invisible': ['|',('is_customer_order_delivery_date_feature','=',True),('show_delivery_schedule','!=','calendarview')]}">
+                        <div class="o_setting_left_pane">
+                            <field name="enable_time_calendar"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="enable_time_calendar"/>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 o_setting_box" attrs="{'invisible': ['|', '|', ('is_customer_order_delivery_date_feature','=',True), '&amp;', ('show_delivery_schedule','!=','calendarview'), '&amp;', ('enable_time_calendar','!=',True), ('enable_time_calendar','!=',False), '&amp;', ('show_delivery_schedule','!=','timeslotview'), ('enable_time_calendar','!=',True)]}">
+                        <div class="o_setting_right_pane">
+                            <label for="timeformat"/>
+                            <div class="text-muted">
+                                <field name="timeformat" attrs="{'required':[('is_customer_order_delivery_date_feature','=',False)]}"/>
+                            </div>
+                            <div>
+                                <p> Please make sure that if you changed the time format than your old stored time data will be lost. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 o_setting_box" attrs="{'invisible': [('is_customer_order_delivery_date_feature','=',True)]}">
+                        <div class="o_setting_right_pane">
+                            <label for="minimum_interval_days"/>
+                            <div class="text-muted">
+                                <field name="minimum_interval_days"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </field>
+    </record>
+</odoo> 

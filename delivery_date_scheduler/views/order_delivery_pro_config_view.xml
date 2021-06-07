@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_weekoff_days_customer_delivery" model="ir.ui.view">
+            <field name="name">weekoff.days.customer.delivery</field>
+            <field name="model">weekoff.days</field>
+            <field name="arch" type="xml">
+                <form string="Week Off Days">
+                    <group>
+                       <field name="name"/>
+                    </group>                    
+                </form>             
+            </field>
+        </record>
+        
+        <record id="view_website_config_settings1" model="ir.ui.view">
+            <field name="name">dayoff_settings</field>
+            <field name="model">dayoff.settings</field>
+            <field name="arch" type="xml">
+                <form string="Configure Delivery" class="oe_form_configuration">
+                    <!--header>
+                        <button string="Apply" type="object" name="execute" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" type="object" name="cancel" class="oe_link"/>
+                    </header-->
+                    <sheet string="Delivery Scheduler Setting">
+                        <div>
+                            <separator string="Day Off Settings"/>
+                            <group>
+                                <field name="website_id"/>
+                                <field name="week_off_days" widget="many2many_tags" options="{'no_create' : True,'no_edit' : True,}"/>
+                                <field name="single_day_off">
+                                    <tree string="Single WeekOff" editable="bottom">
+                                        <field name="day_off"/>
+                                    </tree>
+                                </field>
+                                <field name="period_day_off">
+                                    <tree string="Period Off" editable="bottom">
+                                        <field name="period_from"/>
+                                        <field name="period_to"/>
+                                    </tree>
+                                </field>
+                            </group>
+                            <separator string="Time Slot Settings"/>
+                            <field name="timeformat" invisible='True'/>
+                            <group>
+                                <field name="minimum_interval_hours"/>
+                                <field name="delivery_days" invisible="1"/>
+                                <label for="starttime" attrs="{'invisible':[('timeformat','=','24h')]}"/>
+                                <div attrs="{'invisible':[('timeformat','=','24h')]}">
+                                    <field name="starttime"/>
+                                    <field name="s_time" />
+                                </div>
+                                <label for="endtime" attrs="{'invisible':[('timeformat','=','24h')]}"/>
+                                <div attrs="{'invisible':[('timeformat','=','24h')]}"> 
+                                    <field name="endtime"/>
+                                    <field name="e_time"/>
+                                </div>
+                                <label for="starttime_his" attrs="{'invisible':[('timeformat','!=','24h')]}"/>
+                                <div attrs="{'invisible':[('timeformat','!=','24h')]}">
+                                    <field name="starttime_his"/>
+                                </div>
+                                <label for="endtime_his" attrs="{'invisible':[('timeformat','!=','24h')]}"/>
+                                <div attrs="{'invisible':[('timeformat','!=','24h')]}">
+                                    <field name="endtime_his"/>
+                                </div>
+                            </group>
+                            <newline/>
+                            <group>
+                                <field name="time_slot_ids" attrs="{'invisible':[('timeformat','=','24h')]}">
+                                    <tree string="Time Slots" editable="bottom" >
+                                        <field name="starttime"/>
+                                        <field name="s_time"/>
+                                        <field name="endtime"/>
+                                        <field name="e_time"/>
+                                    </tree>
+                                </field>
+                                <field name="time_slot_ids_his" attrs="{'invisible':[('timeformat','!=','24h')]}">
+                                    <tree string="Time Slots" editable="bottom" >
+                                        <field name="starttime_his"/>
+                                        <field name="endtime_his"/>
+                                    </tree>
+                                </field>
+                                <field name="disable_time_slot_ids" attrs="{'invisible':[('timeformat','=','24h')]}">
+                                    <tree string="Disable Time Slot of Day" editable="bottom">
+                                        <field name="week_id" invisible="1"/>
+                                        <field name="day" options="{'no_create':True,'no_edit':True,}"/>
+                                        <field name="slots" widget="many2many_tags" options="{'no_create':True,'no_edit':True,}"/>
+                                    </tree>
+                                </field>
+                                <field name="disable_time_slot_his_ids" attrs="{'invisible':[('timeformat','!=','24h')]}">
+                                    <tree string="Disable Time Slot of Day" editable="bottom">
+                                        <field name="week_id" invisible="1"/>
+                                        <field name="day" options="{'no_create':True,'no_edit':True,}"/>
+                                        <field name="slots" widget="many2many_tags" options="{'no_create':True,'no_edit':True,}"/>
+                                    </tree>
+                                </field>
+                                <field name="disable_date_time_slot_ids" attrs="{'invisible':[('timeformat','!=','am/pm')]}">
+                                    <tree string="Disable Time Slot of Particular Date" editable="bottom">
+                                        <field name="week_id" invisible="1"/>
+                                        <field name="disable_date" options="{'no_create':True,'no_edit':True,}"/>
+                                        <field name="slots" widget="many2many_tags" options="{'no_create':True,'no_edit':True,}"/>
+                                    </tree>
+                                </field>
+                                <field name="disable_date_time_slot_his_ids" attrs="{'invisible':[('timeformat','=','am/pm')]}">
+                                    <tree string="Disable Time Slot of Particular Date" editable="bottom">
+                                        <field name="week_id" invisible="1"/>
+                                        <field name="disable_date" options="{'no_create':True,'no_edit':True,}"/>
+                                        <field name="slots" widget="many2many_tags" options="{'no_create':True,'no_edit':True,}"/>
+                                    </tree>
+                                </field>
+                            </group>                    
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
+        <record id="view_website_config_settings_tree" model="ir.ui.view">
+            <field name="name">dayoff.settings.tree</field>
+            <field name="model">dayoff.settings</field>
+            <field name="arch" type="xml">
+                <tree string="Configure Delivery">
+                    <field name="website_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_website_configuration1" model="ir.actions.act_window">
+            <field name="name">Delivery Scheduler Settings</field>
+            <field name="res_model">dayoff.settings</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- <menuitem id="menu_website_configuration1" parent="base_setup.menu_config"
+            sequence="90" action="action_website_configuration1"/> -->
+         <menuitem
+            id="menu_website_configuration1"
+            parent="base.menu_administration"
+            sequence="2"
+            action="action_website_configuration1"/>
+
+    </data>
+</odoo>

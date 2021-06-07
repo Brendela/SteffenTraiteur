@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_delivery_single_dayoff,single_dayoff,model_single_dayoff,,1,1,1,1
+access_delivery_period_dayoff,period_dayoff,model_period_dayoff,,1,1,1,1
+access_weekoff_days,weekoff_days,model_weekoff_days,,1,1,1,1
+access_delivery_timeslots,delivery_timeslots,model_delivery_timeslots,,1,1,1,1
+access_delivery_timeslots_his,delivery_timeslots_his,model_delivery_timeslots_his,,1,1,1,1
+access_disable_timeslots,disable_timeslots,model_disable_timeslots,,1,1,1,1
+access_disable_timeslots_his,disable_timeslots_his,model_disable_timeslots_his,,1,1,1,1
+access_dayoff_settings,dayoff_settings,model_dayoff_settings,,1,1,1,1
+access_delivery_date_timeslots,delivery.date.timeslots,model_delivery_date_timeslots,,1,1,1,1
+access_disable_date_timeslots,disable.date.timeslots,model_disable_date_timeslots,,1,1,1,1
+access_disable_date_timeslots_his,disable.date.timeslots.his,model_disable_date_timeslots_his,,1,1,1,1

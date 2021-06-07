@@ -1,0 +1,36 @@
+.pro-exten { display: inline-block; vertical-align: top; width: 100%;padding: 20px;border: 1px solid #ddd;background: rgba(250, 250, 250, 0.57);}
+.pro-exten .form-control{ border-radius: 0;}
+.pro-exten .input-group-addon { border-radius: 0;}
+.pro-exten .pe-date-row { display: inline-block; vertical-align: top; width: 100%; padding: 30px 0;}
+.pro-exten .pe-date-row ul { margin: 0; padding: 0;}
+.pro-exten .pe-date-row li { display: inline-block; vertical-align: top; background: #fff; padding: 8px; position: relative; border: 1px solid #ddd; margin-right: 5px;}
+.pro-exten .pe-date-row li:after { content: " "; float: left; width: 35px; height: 100%; background: #eee; position: absolute; left: 0; top: 0;}
+.pro-exten .pe-date-row li .radio-inline { padding-left: 62px;}
+.pro-exten .pe-date-row li input[type="radio"] { z-index: 1; margin-left: -28px;}
+
+/*30-11-18*/
+.pro-exten .pe-date-row li { margin-bottom: 10px; }
+.pro-exten .pe-date-row li .radio-inline { margin-bottom: 0; position: relative; padding-left: 35px; }
+.pro-exten .pe-date-row li input[type="radio"] { position: absolute; left: 3px; top: 0; bottom: 0; margin: auto; margin-left: 0; }
+.pro-exten .biz-date-picker { margin-left: 10px; }
+.pro-exten .biz-date-picker span.input-group-addon .fa { margin-left: 10px; margin-top: 10px; cursor: pointer; position: absolute; right: 10px; z-index: 99; }
+.pro-exten { border-radius: 0.25rem; }
+
+/*25-08-2020*/
+body .pro-exten .form-inline > .form-group {
+	width: 100%;
+}
+body .pro-exten .form-inline .form-group .form-group {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+body .pro-exten .form-inline .form-group .control-label {
+	margin-bottom: 0;
+}
+body .pro-exten .form-inline .form-group .biz-date-picker {
+	width: auto;
+}

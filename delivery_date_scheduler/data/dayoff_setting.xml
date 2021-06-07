@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate='1'>
+        	
+        <record id="weekoff_days" model="weekoff.days">
+            <field name="name">Sunday</field>
+        </record>
+        <record id="weekoff_days_mon" model="weekoff.days">
+            <field name="name">Monday</field>
+        </record>
+        <record id="weekoff_days_tue" model="weekoff.days">
+            <field name="name">Tuesday</field>
+        </record>
+        <record id="weekoff_days_wed" model="weekoff.days">
+            <field name="name">Wednesday</field>
+        </record>
+        <record id="weekoff_days_thur" model="weekoff.days">
+            <field name="name">Thursday</field>
+        </record>
+        <record id="weekoff_days_fri" model="weekoff.days">
+            <field name="name">Friday</field>
+        </record>
+        <record id="weekoff_days_sat" model="weekoff.days">
+            <field name="name">Saturday</field>
+        </record>
+        <record id="day_of_setting" model="dayoff.settings">
+            <field name="website_id" ref="website.default_website"/>
+        </record>
+	</data>
+</odoo>

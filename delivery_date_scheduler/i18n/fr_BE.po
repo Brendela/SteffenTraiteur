@@ -1,0 +1,1286 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* order_delivery_date_pro
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-18 05:32+0000\n"
+"PO-Revision-Date: 2015-12-18 05:32+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: order_delivery_date_pro
+#: help:website,minimum_interval_days:0
+#: help:website.config.settings,minimum_interval_days:0
+msgid " Minimum Interval of days between the order and delivery date"
+msgstr " Minimum Interval of days between the order and delivery date"
+
+#. module: order_delivery_date_pro
+#: help:website,minimum_interval_hours:0
+msgid " Minimum interval of hours between the order placing time and delivery time"
+msgstr " Minimum interval of hours between the order placing time and delivery time"
+
+#. module: order_delivery_date_pro
+#: help:dayoff.settings,minimum_interval_hours:0
+msgid " Minimum interval of hours between the time slots"
+msgstr " Minimum interval of hours between the time slots"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "0:30"
+msgstr "0:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "10:00"
+msgstr "10:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "10:30"
+msgstr "10:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "11:00"
+msgstr "11:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "11:30"
+msgstr "11:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "12:00"
+msgstr "12:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "12:30"
+msgstr "12:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "13:00"
+msgstr "13:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "13:30"
+msgstr "13:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "14:00"
+msgstr "14:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "14:30"
+msgstr "14:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "15:00"
+msgstr "15:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "15:30"
+msgstr "15:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "16:00"
+msgstr "16:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "16:30"
+msgstr "16:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "17:00"
+msgstr "17:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "17:30"
+msgstr "17:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "18:00"
+msgstr "18:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "18:30"
+msgstr "18:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "19:00"
+msgstr "19:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "19:30"
+msgstr "19:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "1:00"
+msgstr "1:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "1:30"
+msgstr "1:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "20:00"
+msgstr "20:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "20:30"
+msgstr "20:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "21:00"
+msgstr "21:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "21:30"
+msgstr "21:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "22.30"
+msgstr "22.30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "22:00"
+msgstr "22:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "23:00"
+msgstr "23:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "23:30"
+msgstr "23:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,timeformat:0
+#: selection:website,timeformat:0
+#: selection:website.config.settings,timeformat:0
+msgid "24 Hour"
+msgstr "24 Hour"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "24:00"
+msgstr "24:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "2:00"
+msgstr "2:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "2:30"
+msgstr "2:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "3:00"
+msgstr "3:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "3:30"
+msgstr "3:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "4:00"
+msgstr "4:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "4:30"
+msgstr "4:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "5:00"
+msgstr "5:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "5:30"
+msgstr "5:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "6:00"
+msgstr "6:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "6:30"
+msgstr "6:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "7:00"
+msgstr "7:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "7:30"
+msgstr "7:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "8:00"
+msgstr "8:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "8:30"
+msgstr "8:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "9:00"
+msgstr "9:00"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,endtime:0
+#: selection:dayoff.settings,endtime_his:0
+#: selection:dayoff.settings,starttime:0
+#: selection:dayoff.settings,starttime_his:0
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,endtime_his:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots,starttime_his:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "9:30"
+msgstr "9:30"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,e_time:0
+#: selection:dayoff.settings,s_time:0
+#: selection:delivery.timeslots,e_time:0
+#: selection:delivery.timeslots,s_time:0
+#: selection:website,e_time:0
+#: selection:website,s_time:0
+msgid "AM"
+msgstr "AM"
+
+#. module: order_delivery_date_pro
+#: view:website:website_sale.payment
+msgid "AM -"
+msgstr "AM -"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,e_time:0
+#: field:dayoff.settings,s_time:0
+#: field:delivery.timeslots,e_time:0
+#: field:delivery.timeslots,s_time:0
+#: field:website,e_time:0
+#: field:website,s_time:0
+msgid "AM PM"
+msgstr "AM PM"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,timeformat:0
+#: selection:website,timeformat:0
+#: selection:website.config.settings,timeformat:0
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,time_slot_ids:0
+#: field:dayoff.settings,time_slot_ids_his:0
+#: field:website,time_slot_ids:0
+#: field:website,time_slot_ids_his:0
+msgid "Add Time Slot"
+msgstr "Add Time Slot"
+
+#. module: order_delivery_date_pro
+#: selection:website,show_delivery_schedule:0
+#: selection:website.config.settings,show_delivery_schedule:0
+msgid "Calendar View"
+msgstr "Calendar View"
+
+#. module: order_delivery_date_pro
+#: view:dayoff.settings:order_delivery_date_pro.view_website_config_settings1
+#: view:dayoff.settings:order_delivery_date_pro.view_website_config_settings_tree
+msgid "Configure Delivery"
+msgstr "Configure Delivery"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,create_uid:0
+#: field:delivery.timeslots,create_uid:0
+#: field:delivery.timeslots.his,create_uid:0
+#: field:disable.timeslots,create_uid:0
+#: field:disable.timeslots.his,create_uid:0
+#: field:period.dayoff,create_uid:0
+#: field:single.dayoff,create_uid:0
+#: field:weekoff.days,create_uid:0
+msgid "Created by"
+msgstr "Created by"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,create_date:0
+#: field:delivery.timeslots,create_date:0
+#: field:delivery.timeslots.his,create_date:0
+#: field:disable.timeslots,create_date:0
+#: field:disable.timeslots.his,create_date:0
+#: field:period.dayoff,create_date:0
+#: field:single.dayoff,create_date:0
+#: field:weekoff.days,create_date:0
+msgid "Created on"
+msgstr "Created on"
+
+#. module: order_delivery_date_pro
+#: view:website.config.settings:order_delivery_date_pro.view_config_settings_customer_delivery_inherit
+msgid "Customer Order Delivery Date Pro"
+msgstr "Customer Order Delivery Date Pro"
+
+#. module: order_delivery_date_pro
+#: view:sale.order:order_delivery_date_pro.view_customer_order_delivery_sale_form_view_inherited
+msgid "Customer Order Delivery Date Time"
+msgstr "Customer Order Delivery Date Time"
+
+#. module: order_delivery_date_pro
+#: selection:website,date_format:0
+#: selection:website.config.settings,date_format:0
+msgid "D-M-Y"
+msgstr "D-M-Y"
+
+#. module: order_delivery_date_pro
+#: selection:website,date_format:0
+#: selection:website.config.settings,date_format:0
+msgid "D.M.Y"
+msgstr "D.M.Y"
+
+#. module: order_delivery_date_pro
+#: selection:website,date_format:0
+#: selection:website.config.settings,date_format:0
+msgid "D/M/Y"
+msgstr "D/M/Y"
+
+#. module: order_delivery_date_pro
+#: field:website,date_format:0
+#: field:website.config.settings,date_format:0
+msgid "Date Format"
+msgstr "Date Format"
+
+#. module: order_delivery_date_pro
+#: field:disable.timeslots,day:0
+#: field:disable.timeslots.his,day:0
+#: field:weekoff.days,name:0
+msgid "Day"
+msgstr "Day"
+
+#. module: order_delivery_date_pro
+#: field:single.dayoff,day_off:0
+msgid "Day Off"
+msgstr "Day Off"
+
+#. module: order_delivery_date_pro
+#: field:sale.order,customer_order_delivery_comment:0
+#: view:website:website_sale.payment
+msgid "Delivery Comment"
+msgstr "Livraison Commentaire"
+
+#. module: order_delivery_date_pro
+#: field:website,label_comment:0
+#: field:website.config.settings,label_comment:0
+msgid "Delivery Comment Label"
+msgstr "Delivery Comment Label"
+
+#. module: order_delivery_date_pro
+#: field:website,label_date:0
+#: field:website.config.settings,label_date:0
+msgid "Delivery Date Label"
+msgstr "Delivery Date Label"
+
+#. module: order_delivery_date_pro
+#: field:sale.order,customer_order_delivery_date:0
+#: view:website:website_sale.payment
+msgid "Delivery Date Time"
+msgstr "Date de livraison Temps"
+
+#. module: order_delivery_date_pro
+#: view:sale.order:order_delivery_date_pro.view_delivery_order_calendar
+msgid "Delivery Orders"
+msgstr "Delivery Orders"
+
+#. module: order_delivery_date_pro
+#: view:dayoff.settings:order_delivery_date_pro.view_website_config_settings1
+#: field:delivery.timeslots,time_slot_id:0
+msgid "Delivery Setting"
+msgstr "Delivery Setting"
+
+#. module: order_delivery_date_pro
+#: model:ir.actions.act_window,name:order_delivery_date_pro.action_website_configuration1
+#: model:ir.ui.menu,name:order_delivery_date_pro.menu_website_configuration1
+msgid "Delivery Settings"
+msgstr "Delivery Settings"
+
+#. module: order_delivery_date_pro
+#: field:sale.order,time_slote_his_id:0
+#: field:sale.order,time_slote_id:0
+msgid "Delivery Time Slot"
+msgstr "Delivery Time Slot"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,disable_time_slot_his_ids:0
+#: field:dayoff.settings,disable_time_slot_ids:0
+msgid "Disable Time Slots"
+msgstr "Disable Time Slots"
+
+#. module: order_delivery_date_pro
+#: field:disable.timeslots,slots:0
+#: field:disable.timeslots.his,slots:0
+msgid "Disable Timeslots"
+msgstr "Disable Timeslots"
+
+#. module: order_delivery_date_pro
+#: view:dayoff.settings:order_delivery_date_pro.view_website_config_settings1
+msgid "Disbale Time Slots"
+msgstr "Désactiver Temps Slots"
+
+#. module: order_delivery_date_pro
+#: field:website,is_customer_order_delivery_comment_feature:0
+#: field:website.config.settings,is_customer_order_delivery__comment_feature:0
+msgid "Do you want to disable customer order delivery comment feature"
+msgstr "Voulez-vous désactiver la commande du client livraison fonctionnalité de commentaire"
+
+#. module: order_delivery_date_pro
+#: field:website.config.settings,is_customer_order_delivery_date_feature:0
+msgid "Do you want to disable customer order delivery date pro feature"
+msgstr "Voulez-vous désactiver la commande du client date de livraison fonctionnalité pro"
+
+#. module: order_delivery_date_pro
+#: field:website,is_customer_order_delivery_date_feature:0
+msgid "Do you want to disable customer order delivery date time feature"
+msgstr "Voulez-vous désactiver la commande du client date de livraison fonction du temps"
+
+#. module: order_delivery_date_pro
+#: field:website,enable_time_calendar:0
+#: field:website.config.settings,enable_time_calendar:0
+msgid "Enable Time in Calendar"
+msgstr "Activer Temps Calendrier"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,endtime:0
+#: field:delivery.timeslots,endtime:0
+#: field:delivery.timeslots.his,endtime_his:0
+#: field:website,endtime:0
+msgid "EndTime"
+msgstr "Heure de fin"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,endtime_his:0
+#: field:delivery.timeslots,endtime_his:0
+#: field:website,endtime_his:0
+msgid "EndTime 24hrs"
+msgstr "24h EndTime"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,id:0
+#: field:delivery.timeslots,id:0
+#: field:delivery.timeslots.his,id:0
+#: field:disable.timeslots,id:0
+#: field:disable.timeslots.his,id:0
+#: field:period.dayoff,id:0
+#: field:single.dayoff,id:0
+#: field:weekoff.days,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,write_uid:0
+#: field:delivery.timeslots,write_uid:0
+#: field:delivery.timeslots.his,write_uid:0
+#: field:disable.timeslots,write_uid:0
+#: field:disable.timeslots.his,write_uid:0
+#: field:period.dayoff,write_uid:0
+#: field:single.dayoff,write_uid:0
+#: field:weekoff.days,write_uid:0
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,write_date:0
+#: field:delivery.timeslots,write_date:0
+#: field:delivery.timeslots.his,write_date:0
+#: field:disable.timeslots,write_date:0
+#: field:disable.timeslots.his,write_date:0
+#: field:period.dayoff,write_date:0
+#: field:single.dayoff,write_date:0
+#: field:weekoff.days,write_date:0
+msgid "Last Updated on"
+msgstr "Dernière mise à jour"
+
+#. module: order_delivery_date_pro
+#: selection:website,date_format:0
+#: selection:website.config.settings,date_format:0
+msgid "M-D-Y"
+msgstr "M-D-Y"
+
+#. module: order_delivery_date_pro
+#: selection:website,date_format:0
+#: selection:website.config.settings,date_format:0
+msgid "M.D.Y"
+msgstr "M.D.Y"
+
+#. module: order_delivery_date_pro
+#: selection:website,date_format:0
+#: selection:website.config.settings,date_format:0
+msgid "M/D/Y"
+msgstr "M/D/Y"
+
+#. module: order_delivery_date_pro
+#: field:website,delivery_date_mandatory:0
+#: field:website.config.settings,delivery_date_mandatory:0
+msgid "Make Delivery Date Mandatory"
+msgstr "Assurez Date de livraison obligatoire"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,minimum_interval_hours:0
+#: field:website,minimum_interval_hours:0
+msgid "Minimum Interval in Hours"
+msgstr "Intervalle minimum en Heures"
+
+#. module: order_delivery_date_pro
+#: field:website,minimum_interval_days:0
+#: field:website.config.settings,minimum_interval_days:0
+msgid "Minimum Interval of days"
+msgstr "Intervalle minimum de jours"
+
+#. module: order_delivery_date_pro
+#: model:ir.actions.act_window,name:order_delivery_date_pro.action_delivery_orders
+#: model:ir.ui.menu,name:order_delivery_date_pro.menu_delivery_order
+msgid "My Delivery Dates"
+msgstr "Mes dates de livraison"
+
+#. module: order_delivery_date_pro
+#: field:delivery.timeslots,name:0
+#: field:delivery.timeslots.his,name:0
+#: field:sale.order,slot_name:0
+msgid "Name"
+msgstr "prénom"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,delivery_days:0
+#: field:website,delivery_days:0
+msgid "Number of Delivery Days"
+msgstr "Nombre de jours de livraison"
+
+#. module: order_delivery_date_pro
+#: selection:dayoff.settings,e_time:0
+#: selection:dayoff.settings,s_time:0
+#: selection:delivery.timeslots,e_time:0
+#: selection:delivery.timeslots,s_time:0
+#: selection:website,e_time:0
+#: selection:website,s_time:0
+msgid "PM"
+msgstr "PM"
+
+#. module: order_delivery_date_pro
+#: view:website:website_sale.payment
+msgid "PM -"
+msgstr "PM -"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,period_day_off:0
+#: field:website,period_day_off:0
+msgid "Period Day Off"
+msgstr "Période Day Off"
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:71
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:97
+#, python-format
+msgid "Period From can not be greater than Period From "
+msgstr "Période De ne peut pas être supérieure à la période De "
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:63
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:86
+#, python-format
+msgid "Period From can not be greater than Period To "
+msgstr "Période De ne peut pas être supérieure à la période Pour "
+
+#. module: order_delivery_date_pro
+#: view:dayoff.settings:order_delivery_date_pro.view_website_config_settings1
+msgid "Period WeekOff"
+msgstr "WeekOff Période"
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:204
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:236
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:243
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:285
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:319
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:326
+#, python-format
+msgid "Please Add Time Slots to disable"
+msgstr "S'il vous plaît ajouter du temps Slots pour désactiver"
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:202
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:232
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:283
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:315
+#, python-format
+msgid "Please Select other Day to disable TimeSlots"
+msgstr "S'il vous plaît choisir un autre jour pour désactiver les intervalles de temps"
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:181
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:262
+#, python-format
+msgid "Please add Day and Slots to disable TimeSlots"
+msgstr "S'il vous plaît ajouter Day et Slots désactiver intervalles de temps"
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:183
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:239
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:264
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:322
+#, python-format
+msgid "Please add Day to disable TimeSlots"
+msgstr "S'il vous plaît ajouter une journée à intervalles de temps désactiver"
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:69
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:91
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:95
+#, python-format
+msgid "Please add Period From date to disable Period"
+msgstr "S'il vous plaît ajouter période de la date de désactiver Période"
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:58
+#, python-format
+msgid "Please add Period To and From date to disable Period"
+msgstr "S'il vous plaît ajouter période et de date à désactiver Période"
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:61
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:84
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:99
+#, python-format
+msgid "Please add Period To date to disable Period"
+msgstr "S'il vous plaît ajouter Période à ce jour pour désactiver Période"
+
+#. module: order_delivery_date_pro
+#: field:period.dayoff,period_from:0
+msgid "Priod From"
+msgstr "De mariée"
+
+#. module: order_delivery_date_pro
+#: field:period.dayoff,period_to:0
+msgid "Priod To"
+msgstr "Married To"
+
+#. module: order_delivery_date_pro
+#: model:ir.model,name:order_delivery_date_pro.model_sale_order
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: order_delivery_date_pro
+#: field:website,show_delivery_schedule:0
+#: field:website.config.settings,show_delivery_schedule:0
+msgid "Show Delivery Schedule In"
+msgstr "Voir calendrier de livraison En"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,single_day_off:0
+#: field:website,single_day_off:0
+msgid "Single Day Off"
+msgstr "Simple Day Off"
+
+#. module: order_delivery_date_pro
+#: view:dayoff.settings:order_delivery_date_pro.view_website_config_settings1
+msgid "Single WeekOff"
+msgstr "WeekOff simple"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,starttime:0
+#: field:delivery.timeslots,starttime:0
+#: field:delivery.timeslots.his,starttime_his:0
+#: field:website,starttime:0
+msgid "StartTime"
+msgstr "Heure de début"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,starttime_his:0
+#: field:delivery.timeslots,starttime_his:0
+#: field:website,starttime_his:0
+msgid "StartTime 24hrs"
+msgstr "Heure de début 24 heures"
+
+#. module: order_delivery_date_pro
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:66
+#: code:addons/order_delivery_date_pro/models/order_delivery_pro_config.py:89
+#, python-format
+msgid "This period is already disabled"
+msgstr "Cette période est déjà désactivé"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,timeformat:0
+#: field:website,timeformat:0
+#: field:website.config.settings,timeformat:0
+msgid "Time Format"
+msgstr "Format de l'heure"
+
+#. module: order_delivery_date_pro
+#: view:dayoff.settings:order_delivery_date_pro.view_website_config_settings1
+msgid "Time Slots"
+msgstr "Créneaux horaires"
+
+#. module: order_delivery_date_pro
+#: view:dayoff.settings:order_delivery_date_pro.view_website_config_settings1
+msgid "TimeSlot Settings"
+msgstr "Réglages tIMESLOT"
+
+#. module: order_delivery_date_pro
+#: selection:website,show_delivery_schedule:0
+#: selection:website.config.settings,show_delivery_schedule:0
+msgid "TimeSlot View"
+msgstr "tIMESLOT Voir"
+
+#. module: order_delivery_date_pro
+#: field:delivery.timeslots,week_id:0
+#: field:delivery.timeslots.his,week_id:0
+#: field:disable.timeslots,week_id:0
+#: field:disable.timeslots.his,week_id:0
+#: model:ir.model,name:order_delivery_date_pro.model_website
+msgid "Website"
+msgstr "Site Web"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,week_off_days:0
+#: field:website,week_off_days:0
+#: view:weekoff.days:order_delivery_date_pro.view_weekoff_days_customer_delivery
+msgid "Week Off Days"
+msgstr "Semaine de congé Jours"
+
+#. module: order_delivery_date_pro
+#: view:dayoff.settings:order_delivery_date_pro.view_website_config_settings1
+msgid "WeekOff Settings"
+msgstr "Réglages WeekOff"
+
+#. module: order_delivery_date_pro
+#: view:website:website_sale.payment
+msgid "Write a comment..."
+msgstr "Écrire un commentaire..."
+
+#. module: order_delivery_date_pro
+#: field:website,disable_time_slot_his_ids:0
+#: field:website,disable_time_slot_ids:0
+msgid "disable Time Slots"
+msgstr "désactiver Temps Slots"
+
+#. module: order_delivery_date_pro
+#: field:dayoff.settings,website_id:0
+msgid "website"
+msgstr "site Internet"
+

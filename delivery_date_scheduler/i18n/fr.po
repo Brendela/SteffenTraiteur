@@ -1,0 +1,1221 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* delivery_date_scheduler
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-05 08:39+0000\n"
+"PO-Revision-Date: 2018-02-05 08:39+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,help:delivery_date_scheduler.field_res_config_settings_minimum_interval_days
+#: model:ir.model.fields,help:delivery_date_scheduler.field_website_minimum_interval_days
+msgid " Minimum Interval of days between the order and delivery date"
+msgstr " Intervalle minimum de jours entre la commande et la date de livraison"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,help:delivery_date_scheduler.field_website_minimum_interval_hours
+msgid " Minimum interval of hours between the order placing time and delivery time"
+msgstr " Intervalle minimum d'heures entre le moment où l'ordre de mise en place et le temps de livraison"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,help:delivery_date_scheduler.field_dayoff_settings_minimum_interval_hours
+msgid " Minimum interval of hours between the time slots"
+msgstr " Intervalle minimal entre les heures de tranches de temps"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+msgid "00:00"
+msgstr "00:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+msgid "00:30"
+msgstr "00:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "0:00"
+msgstr "0:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "0:30"
+msgstr "0:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "10:00"
+msgstr "10:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "10:30"
+msgstr "10:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "11:00"
+msgstr "11:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "11:30"
+msgstr "11:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "12:00"
+msgstr "12:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "12:30"
+msgstr "12:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "13:00"
+msgstr "13:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "13:30"
+msgstr "13:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "14:00"
+msgstr "14:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "14:30"
+msgstr "14:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "15:00"
+msgstr "15:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "15:30"
+msgstr "15:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "16:00"
+msgstr "16:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "16:30"
+msgstr "16:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "17:00"
+msgstr "17:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "17:30"
+msgstr "17:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "18:00"
+msgstr "18:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "18:30"
+msgstr "18:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "19:00"
+msgstr "19:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "19:30"
+msgstr "19:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "1:00"
+msgstr "1:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "1:30"
+msgstr "1:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "20:00"
+msgstr "20:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "20:30"
+msgstr "20:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "21:00"
+msgstr "21:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "21:30"
+msgstr "21:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "22.30"
+msgstr "22.30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "22:00"
+msgstr "22:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "23:00"
+msgstr "23:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime_his:0
+msgid "23:30"
+msgstr "23:30"
+
+#. module: delivery_date_scheduler
+#: selection:website,timeformat:0
+msgid "24 Hour"
+msgstr "24 Hour"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "2:00"
+msgstr "2:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "2:30"
+msgstr "2:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "3:00"
+msgstr "3:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "3:30"
+msgstr "3:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "4:00"
+msgstr "4:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "4:30"
+msgstr "4:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "5:00"
+msgstr "5:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "5:30"
+msgstr "5:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "6:00"
+msgstr "6:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "6:30"
+msgstr "6:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "7:00"
+msgstr "7:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "7:30"
+msgstr "7:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "8:00"
+msgstr "8:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "8:30"
+msgstr "8:30"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "9:00"
+msgstr "9:00"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,endtime:0
+#: selection:delivery.timeslots,starttime:0
+#: selection:delivery.timeslots.his,endtime_his:0
+#: selection:delivery.timeslots.his,starttime_his:0
+#: selection:website,endtime:0
+#: selection:website,endtime_his:0
+#: selection:website,starttime:0
+#: selection:website,starttime_his:0
+msgid "9:30"
+msgstr "9:30"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/controllers/main.py:298
+#, python-format
+msgid "<p>Please Select Delivery Date and Time.</p>"
+msgstr "<p>Veuillez sélectionner la date et l'heure de livraison.</p>"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/controllers/main.py:297
+#, python-format
+msgid "<p>Please Select the date with minimum interval of %s days from today. </p>"
+msgstr "<p>Veuillez sélectionner la date avec un intervalle minimum de %s jours à compter d'aujourd'hui. </p>"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,e_time:0
+#: selection:delivery.timeslots,s_time:0
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.website_sale_customer_order_delivery_date
+#: selection:website,e_time:0
+#: selection:website,s_time:0
+msgid "AM"
+msgstr "AM"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.website_sale_customer_order_delivery_date
+msgid "AM -"
+msgstr "AM -"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_e_time
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_s_time
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_e_time
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_s_time
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_e_time
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_s_time
+msgid "AM PM"
+msgstr "AM PM"
+
+#. module: delivery_date_scheduler
+#: selection:website,timeformat:0
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_time_slot_ids
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_time_slot_ids_his
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_time_slot_ids
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_time_slot_ids_his
+msgid "Add Time Slot"
+msgstr "Ajouter un emplacement Temps"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/controllers/main.py:296
+#, python-format
+msgid "Alert"
+msgstr "Alert"
+
+#. module: delivery_date_scheduler
+#: selection:website,show_delivery_schedule:0
+msgid "Calendar View"
+msgstr "Calendrier Voir"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings1
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings_tree
+msgid "Configure Delivery"
+msgstr "Configure Delivery"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_date_timeslots_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_single_dayoff_create_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_weekoff_days_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_date_timeslots_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_single_dayoff_create_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_weekoff_days_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_customer_order_delivery_sale_form_view_inherited
+msgid "Customer Order Delivery Date Time"
+msgstr "Customer Order Delivery Date Time"
+
+#. module: delivery_date_scheduler
+#: selection:website,date_format:0
+msgid "D-M-Y"
+msgstr "D-M-Y"
+
+#. module: delivery_date_scheduler
+#: selection:website,date_format:0
+msgid "D.M.Y"
+msgstr "D.M.Y"
+
+#. module: delivery_date_scheduler
+#: selection:website,date_format:0
+msgid "D/M/Y"
+msgstr "D/M/Y"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_date_format
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_date_format
+msgid "Date Format"
+msgstr "Format de date"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_day
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his_day
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_weekoff_days_name
+msgid "Day"
+msgstr "jour"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_single_dayoff_day_off
+msgid "Day Off"
+msgstr "Jour de congé"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_week_off_days
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_week_off_days
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings1
+msgid "Day Off Settings"
+msgstr "Day Off Settings"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_sale_order_customer_order_delivery_comment
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.website_sale_customer_order_delivery_date
+msgid "Delivery Comment"
+msgstr "Livraison Commentaire"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_config_settings_customer_delivery_inherit
+msgid "Delivery Date Scheduler"
+msgstr "Delivery Date Scheduler"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_sale_order_customer_order_delivery_date
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.website_sale_customer_order_delivery_date
+msgid "Delivery Date Time"
+msgstr "Date de livraison Temps"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_delivery_order_calendar
+msgid "Delivery Orders"
+msgstr "Delivery Orders"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_show_delivery_schedule
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_show_delivery_schedule
+msgid "Delivery Schedule View"
+msgstr "Delivery Schedule View"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings1
+msgid "Delivery Scheduler Setting"
+msgstr "Delivery Scheduler Setting"
+
+#. module: delivery_date_scheduler
+#: model:ir.actions.act_window,name:delivery_date_scheduler.action_website_configuration1
+#: model:ir.ui.menu,name:delivery_date_scheduler.menu_website_configuration1
+msgid "Delivery Scheduler Settings"
+msgstr "Delivery Scheduler Settings"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_sale_order_time_slote_his_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_sale_order_time_slote_id
+msgid "Delivery Time Slot"
+msgstr "Délai de livraison fente"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_disable_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his_disable_date
+msgid "Disable Date"
+msgstr "Disable Date"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_is_customer_order_delivery_comment_feature
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_is_customer_order_delivery_comment_feature
+msgid "Disable Delivery Comment Feature"
+msgstr "Disable Delivery Comment Feature"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_is_customer_order_delivery_date_feature
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_is_customer_order_delivery_date_feature
+msgid "Disable Delivery Date Scheduler"
+msgstr "Disable Delivery Date Scheduler"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_disable_time_slot_his_ids
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_disable_time_slot_ids
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_disable_time_slot_his_ids
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_disable_time_slot_ids
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings1
+msgid "Disable Time Slot of Day"
+msgstr "Disable Time Slot of Day"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_disable_date_time_slot_his_ids
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_disable_date_time_slot_ids
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_disable_date_time_slot_his_ids
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_disable_date_time_slot_ids
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings1
+msgid "Disable Time Slot of Particular Date"
+msgstr "Disable Time Slot of Particular Date"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his_slots
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_slots
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his_slots
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_slots
+msgid "Disable Time Slots"
+msgstr "Désactiver Temps Slots"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_date_timeslots_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_single_dayoff_display_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_weekoff_days_display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_enable_time_calendar
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_enable_time_calendar
+msgid "Enable Time in Calendar"
+msgstr "Activer Temps Calendrier"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_endtime
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_endtime_his
+msgid "End Time"
+msgstr "End Time"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:481
+#, python-format
+msgid "Error!\n"
+"Please enter the Minimum Interval of days greater than 0"
+msgstr "Error!\n"
+"Please enter the Minimum Interval of days greater than 0"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:479
+#, python-format
+msgid "Error!\n"
+"Please enter the Minimum Interval of days in digit (not special character)"
+msgstr "Error!\n"
+"Please enter the Minimum Interval of days in digit (not special character)"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:698
+#, python-format
+msgid "Error!\n"
+"Please enter the Minimum Interval of time slot in digit or float (not special character)"
+msgstr "Error!\n"
+"Please enter the Minimum Interval of time slot in digit or float (not special character)"
+
+#. module: delivery_date_scheduler
+#. openerp-web
+#: code:addons/delivery_date_scheduler/static/src/js/order_delivery_validation.js:116
+#, python-format
+msgid "Error: "
+msgstr "Error: "
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_date_timeslots_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_single_dayoff_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_weekoff_days_id
+msgid "ID"
+msgstr "ID"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_label_comment
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_label_comment
+msgid "Label for Delivery Date Comments"
+msgstr "Label for Delivery Date Comments"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_date_timeslots___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_single_dayoff___last_update
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_weekoff_days___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_date_timeslots_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_single_dayoff_write_uid
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_weekoff_days_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_date_timeslots_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_single_dayoff_write_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_weekoff_days_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: delivery_date_scheduler
+#: selection:website,date_format:0
+msgid "M-D-Y"
+msgstr "M-D-Y"
+
+#. module: delivery_date_scheduler
+#: selection:website,date_format:0
+msgid "M.D.Y"
+msgstr "M.D.Y"
+
+#. module: delivery_date_scheduler
+#: selection:website,date_format:0
+msgid "M/D/Y"
+msgstr "M/D/Y"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_delivery_date_mandatory
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_delivery_date_mandatory
+msgid "Make Delivery Date Mandatory"
+msgstr "Assurez Date de livraison obligatoire"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_minimum_interval_hours
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_minimum_interval_hours
+msgid "Minimum Interval of Hours"
+msgstr "Minimum Interval of Hours"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_minimum_interval_days
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_minimum_interval_days
+msgid "Minimum interval of days between the order and delivery date"
+msgstr "Minimum interval of days between the order and delivery date"
+
+#. module: delivery_date_scheduler
+#: model:ir.actions.act_window,name:delivery_date_scheduler.action_delivery_orders
+#: model:ir.ui.menu,name:delivery_date_scheduler.menu_delivery_order
+msgid "My Delivery Dates"
+msgstr "My Delivery Dates"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_date_timeslots_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_name
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_sale_order_slot_name
+msgid "Name"
+msgstr "prénom"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_delivery_days
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_delivery_days
+msgid "Number of Delivery Days"
+msgstr "Nombre de jours de livraison"
+
+#. module: delivery_date_scheduler
+#. openerp-web
+#: code:addons/delivery_date_scheduler/static/src/js/order_delivery_validation.js:120
+#, python-format
+msgid "Ok"
+msgstr "Ok"
+
+#. module: delivery_date_scheduler
+#: selection:delivery.timeslots,e_time:0
+#: selection:delivery.timeslots,s_time:0
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.website_sale_customer_order_delivery_date
+#: selection:website,e_time:0
+#: selection:website,s_time:0
+msgid "PM"
+msgstr "PM"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.website_sale_customer_order_delivery_date
+msgid "PM -"
+msgstr "PM -"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff_period_from
+msgid "Period From"
+msgstr "Period From"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:72
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:101
+#, python-format
+msgid "Period From can not be greater than Period From "
+msgstr "Period From can not be greater than Period From "
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:64
+#, python-format
+msgid "Period From can not be greater than Period To"
+msgstr "Period From can not be greater than Period To"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:90
+#, python-format
+msgid "Period From can not be greater than Period To "
+msgstr "Period From can not be greater than Period To "
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_period_day_off
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_period_day_off
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings1
+msgid "Period Off"
+msgstr "Period Off"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff_period_to
+msgid "Period To"
+msgstr "Period To"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:297
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:304
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:382
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:389
+#, python-format
+msgid "Please Add Time Slots to disable"
+msgstr "Please Add Time Slots to disable"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:262
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:293
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:346
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:378
+#, python-format
+msgid "Please Select other Day to disable TimeSlots"
+msgstr "Please Select other Day to disable TimeSlots"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:241
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:325
+#, python-format
+msgid "Please add Day and Slots to disable TimeSlots"
+msgstr "Please add Day and Slots to disable TimeSlots"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:243
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:300
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:327
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:385
+#, python-format
+msgid "Please add Day to disable TimeSlots"
+msgstr "Please add Day to disable TimeSlots"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:70
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:95
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:99
+#, python-format
+msgid "Please add Period From date to disable Period"
+msgstr "Please add Period From date to disable Period"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:59
+#, python-format
+msgid "Please add Period To and From date to disable Period"
+msgstr "Please add Period To and From date to disable Period"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:62
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:88
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:103
+#, python-format
+msgid "Please add Period To date to disable Period"
+msgstr "Please add Period To date to disable Period"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_sale_order
+msgid "Sale Order"
+msgstr "Sale Order"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_single_day_off
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_single_day_off
+msgid "Single Day Off"
+msgstr "Simple Day Off"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings1
+msgid "Single WeekOff"
+msgstr "Single WeekOff"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_starttime_his
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_starttime
+msgid "Start Time"
+msgstr "Start Time"
+
+#. module: delivery_date_scheduler
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:67
+#: code:addons/delivery_date_scheduler/models/order_delivery_pro_config.py:93
+#, python-format
+msgid "This period is already disabled"
+msgstr "This period is already disabled"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_timeformat
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_timeformat
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_timeformat
+msgid "Time Format"
+msgstr "Format de l'heure"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_endtime
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_endtime
+msgid "Time Slot End Time"
+msgstr "Time Slot End Time"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_endtime_his
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_endtime_his
+msgid "Time Slot End Time 24hrs"
+msgstr "Time Slot End Time 24hrs"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings1
+msgid "Time Slot Settings"
+msgstr "Time Slot Settings"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_starttime
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_starttime
+msgid "Time Slot Start Time"
+msgstr "Time Slot Start Time"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_starttime_his
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_starttime_his
+msgid "Time Slot Start Time 24hrs"
+msgstr "Time Slot Start Time 24hrs"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_website_config_settings1
+msgid "Time Slots"
+msgstr "Time Slots"
+
+#. module: delivery_date_scheduler
+#: selection:website,show_delivery_schedule:0
+msgid "TimeSlot View"
+msgstr "tIMESLOT Voir"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_res_config_settings_label_date
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_website_label_date
+msgid "Title"
+msgstr "Civilité"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_website
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_date_timeslots_week_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_his_week_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_delivery_timeslots_week_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_his_week_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_date_timeslots_week_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_his_week_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_disable_timeslots_week_id
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_period_dayoff_dayoff_setting
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_single_dayoff_dayoff_setting
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_weekoff_days_dayoff_setting
+msgid "Website"
+msgstr "Site Web"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.view_weekoff_days_customer_delivery
+msgid "Week Off Days"
+msgstr "Week Off Days"
+
+#. module: delivery_date_scheduler
+#: model:ir.ui.view,arch_db:delivery_date_scheduler.website_sale_customer_order_delivery_date
+msgid "Write a comment..."
+msgstr "Écrire un commentaire..."
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_dayoff_settings
+msgid "dayoff.settings"
+msgstr "dayoff.settings"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_delivery_date_timeslots
+msgid "delivery.date.timeslots"
+msgstr "delivery.date.timeslots"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_delivery_timeslots
+msgid "delivery.timeslots"
+msgstr "delivery.timeslots"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_delivery_timeslots_his
+msgid "delivery.timeslots.his"
+msgstr "delivery.timeslots.his"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_disable_date_timeslots
+msgid "disable.date.timeslots"
+msgstr "disable.date.timeslots"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_disable_date_timeslots_his
+msgid "disable.date.timeslots.his"
+msgstr "disable.date.timeslots.his"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_disable_timeslots
+msgid "disable.timeslots"
+msgstr "disable.timeslots"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_disable_timeslots_his
+msgid "disable.timeslots.his"
+msgstr "disable.timeslots.his"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_period_dayoff
+msgid "period.dayoff"
+msgstr "period.dayoff"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_single_dayoff
+msgid "single.dayoff"
+msgstr "single.dayoff"
+
+#. module: delivery_date_scheduler
+#: model:ir.model.fields,field_description:delivery_date_scheduler.field_dayoff_settings_website_id
+msgid "website"
+msgstr "site Internet"
+
+#. module: delivery_date_scheduler
+#: model:ir.model,name:delivery_date_scheduler.model_weekoff_days
+msgid "weekoff.days"
+msgstr "weekoff.days"
+

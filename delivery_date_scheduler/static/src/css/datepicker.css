@@ -1,0 +1,8 @@
+.valid {
+  background: green;
+  color: #fff;
+}
+.error {
+  background: red;
+  color: #fff;
+}​
